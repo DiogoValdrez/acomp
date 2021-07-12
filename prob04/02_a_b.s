@@ -66,10 +66,11 @@ end:
 #scause <- 3
 #sepc <- 0x58 ou 0x64
 #pc <- stvect
-#SPIE <- 0
+#spie <- GIE
+#GIE <- 0
 
 #depois da interrupção terminar
 #pc <- sepc
-#SPIE <-1
+#GIE <- spie
 
 
